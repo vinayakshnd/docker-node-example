@@ -1,8 +1,8 @@
 FROM node:8
 
 # Create app directory
-RUN mkdir -p /build
-WORKDIR /build
+RUN mkdir -p /app
+WORKDIR /app
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
